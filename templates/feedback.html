@@ -31,7 +31,7 @@
       <a href="../index.html">Home</a> |
       <a href="about.html">About</a> |
       <a href="journey.html">Journey</a> |
-      <a href="blog.html">Blog</a> |
+      <a href="interests.html">Interests</a> |
       <a href="academics.html">Academics</a> |
       <a href="extracurriculars.html">Extra-Curriculars</a> |
       <a href="feedback.html">Feedback</a>
@@ -40,9 +40,17 @@
 
   <section style="margin: 50px;">
 
-    <iframe src="https://giphy.com/embed/Vhr84F3YBcB2c0HTMT/video" width="300" height="200" frameBorder="0"
-      class="giphy-embed" allowFullScreen></iframe>
-    <p style="font-size: 1.25em"></p>
+    <h2>Your Feedback</h2>
+    <form action="/action_page.php">
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" value=""><br><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" value=""><br><br>
+      <label for="feedback">Feedback</label><br>
+      <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
   </section>
 
   <footer>
